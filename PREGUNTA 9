@@ -1,0 +1,8 @@
+uno=input("Ingrese primer elemento de la lista: ")
+dos=input("Ingrese segundo elemento de la lista: ")
+tres=input("Ingrese tercer elemento de la lista: ")
+cuatro=input("Ingrese cuarto elemento de la lista: ")
+
+lista_elementos = [str(uno), str(dos), str(tres), str(cuatro)]
+lista_elementos.reverse()
+print(lista_elementos)

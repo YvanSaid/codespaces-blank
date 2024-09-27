@@ -1,0 +1,5 @@
+vistas=float(input("Cuantos shows musicales haz visto en el último año: "))
+if vistas > 3 :
+    print ("True")
+else :
+    print ("False")

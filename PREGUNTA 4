@@ -1,0 +1,4 @@
+número=float(input("Introduzca el numero: "))
+formula=número*(número+1)
+formulaa=formula/2
+print(str(formulaa))

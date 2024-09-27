@@ -1,0 +1,6 @@
+Muñecas=float(input("Cuantas muñecas fueron vendidas "))
+Payasos=float(input("Cuantos payasos fueron vendidos "))
+PMuñecas=Muñecas*75
+PPayasos=Payasos*112
+PTotal=PMuñecas+PPayasos
+print("Peso del pedido "+str(PTotal)+" g")

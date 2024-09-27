@@ -1,0 +1,17 @@
+uno=input("Ingrese primer elemento de la lista: ")
+dos=input("Ingrese segundo elemento de la lista: ")
+tres=input("Ingrese tercer elemento de la lista: ")
+cuatro=input("Ingrese cuarto elemento de la lista: ")
+cinco=input("Ingrese quinto elemento de la lista: ")
+seis=input("Ingrese sexto elemento de la lista: ")
+siete=input("Ingrese septimo elemento de la lista: ")
+
+
+lista_elementos = [uno, dos, tres, cuatro, cinco, seis, siete]
+print(lista_elementos)
+del lista_elementos[0]
+del lista_elementos[3]
+del lista_elementos[4]
+
+
+print(lista_elementos)

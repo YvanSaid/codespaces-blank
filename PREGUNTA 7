@@ -1,0 +1,25 @@
+menu= """
+    1.Sumar Numeros
+    2.Restar Numeros
+    3.Multiplicar  
+"""
+print(menu)
+option=int(input("¿Qué opcion quieres usar?: "))
+
+if option==1:
+    a=float(input("ingrese primer número: "))
+    b=float(input("ingrese segundo número: "))
+    c=a+b
+    print(f"La suma es {c}")   
+elif option==2:
+    a=float(input("ingrese primer número: "))
+    b=float(input("ingrese segundo número: "))
+    c=a-b
+    print(f"La resta es {c}")  
+elif option==3:
+    a=float(input("ingrese primer número: "))
+    b=float(input("ingrese segundo número: "))
+    c=a*b
+    print(f"La multiplicación es {c}")  
+else :
+    print("Opción inválida")

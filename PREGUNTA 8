@@ -1,0 +1,17 @@
+hora=float(input("Ingrese la hora: "))
+minuto=float(input("Ingrese los minutos: "))
+x=hora
+y=minuto
+
+
+if x>=7 and x<=8 :
+    if y>=0 and y<=59:
+        print('Es hora de desayunar')
+elif x >= 12 and x<= 13:
+    if y>=0 and y<=59:
+        print('Es hora de almorzar')
+elif x >= 18 and x<= 19:
+    if y>=0 and y<=59:
+        print('Es hora de cenar')
+else:
+    print()

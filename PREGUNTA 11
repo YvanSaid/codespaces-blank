@@ -1,0 +1,34 @@
+uno=input("Ingrese primer elemento de la lista: ")
+dos=input("Ingrese segundo elemento de la lista: ")
+tres=input("Ingrese tercer elemento de la lista: ")
+cuatro=input("Ingrese cuarto elemento de la lista: ")
+cinco=input("Ingrese quinto elemento de la lista: ")
+seis=input("Ingrese sexto elemento de la lista: ")
+siete=input("Ingrese septimo elemento de la lista: ")
+
+lista_elementos=[uno, dos,tres,cuatro,cinco,seis,siete]
+
+x= lista_elementos.count(uno)
+if x>1:
+        lista_elementos.remove(uno)
+y=lista_elementos.count(dos)
+if y >1:
+        lista_elementos.remove(dos)
+z=lista_elementos.count(tres)
+if z >1:
+        lista_elementos.remove(tres)
+a=lista_elementos.count(cuatro)
+if a >1:
+        lista_elementos.remove(cuatro)
+b=lista_elementos.count(cinco)
+if b >1:
+        lista_elementos.remove(cinco)
+c=lista_elementos.count(seis)
+if c >1:
+        lista_elementos.remove(seis)
+d=lista_elementos.count(siete)
+if d >1:
+        lista_elementos.remove(siete)
+
+print(lista_elementos)
+

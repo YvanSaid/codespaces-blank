@@ -1,0 +1,5 @@
+Csm=float(input("Consumo de restaurante "))
+Porcentaje=float(input("Que porcentaje de propina desea dejar al mesero "))
+Propina=Porcentaje%Csm
+
+print("La propina es "+ str(Propina))

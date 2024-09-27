@@ -1,0 +1,57 @@
+nombre=input("Nombre del archivo: ")
+x=str(nombre)
+
+menu= """
+    1. .gif
+    2. .jpg
+    3. .jpeg
+    4. .png
+    5. .pdf
+    6. .txt
+    7. .zip 
+"""
+print(menu)
+option=int(input("Tipo de archivo: "))
+if option==1:
+    a=str(x)
+    b=str("/gif")
+    c=str(a+b)
+    print(c)   
+elif option==2:
+    a=str(x)
+    b=str("/jpg")
+    c=str(a+b)
+    print(c)  
+elif option==3:
+    a=str(x)
+    b=str("/jpeg")
+    c=str(a+b)
+    print(c)  
+elif option==4:
+    a=str(x)
+    b=str("/png")
+    c=str(a+b)
+    print(c) 
+elif option==5:
+    a=str(x)
+    b=str("/pdf")
+    c=str(a+b)
+    print(c) 
+elif option==6:
+    a=str(x)
+    b=str("/txt")
+    c=str(a+b)
+    print(c) 
+elif option==7:
+    a=str(x)
+    b=str("/zip")
+    c=str(a+b)
+    print(c) 
+else :
+    a=str(x)
+    b=str("/octet-stream")
+    c=str(a+b)
+    print(c) 
+    
+
+
